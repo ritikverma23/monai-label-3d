@@ -40,3 +40,7 @@ Now plugin your address that you had copied in MONAILabel Server. your dataset o
 After plugin just check on your server is it updated?![image](https://user-images.githubusercontent.com/58775305/174990384-b11eeec7-77df-43a9-8c88-4fcb51358b07.png)
 it will look something like above image, After this select ROI(Region of Interest and paint it for training)
 then just update the selected area and train it.
+
+
+#### References
+more you can see on [First](https://pypi.org/project/monailabel/),  [Second](https://github.com/Project-MONAI/MONAILabel/tree/main/plugins/slicer)
