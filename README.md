@@ -15,8 +15,10 @@ MONAI Label is a server-client system that facilitates interactive medical image
 ### Git Checkout (developer mode)
 
 git clone https://github.com/Project-MONAI/MONAILabel
+
 pip install -r MONAILabel/requirements.txt
-export PATH=$PATH:`pwd`/MONAILabel/monailabel/scripts
+
+set PATH=$PATH:`pwd`/MONAILabel/monailabel/scripts
 
 ## docker
 docker run --gpus all --rm -ti --ipc=host --net=host projectmonai/monailabel:latest bash
