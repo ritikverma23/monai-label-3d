@@ -25,7 +25,8 @@ docker run --gpus all --rm -ti --ipc=host --net=host projectmonai/monailabel:lat
 
 ## Initiating server
 ### download radiology app and sample dataset
-monailabel apps --download --name radiology --output apps
+monailabel apps --download --name radiology --output apps 
+
 monailabel datasets --download --name Task09_Spleen --output datasets
 
 ### start server using radiology app with deepedit model enabled
